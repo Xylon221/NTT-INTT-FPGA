@@ -1,0 +1,9 @@
+$ vvp reports/rns60/n16_seed20261028/tfg.vvp
+METRIC mode=1 n=16 op=forward_cyclic cycles=165 checked=16
+METRIC mode=1 n=16 op=inverse_cyclic cycles=230 checked=16
+METRIC mode=1 n=16 op=inverse_negacyclic cycles=230 checked=16
+METRIC mode=1 n=16 op=forward_negacyclic_a cycles=230 checked=16
+METRIC mode=1 n=16 op=forward_negacyclic_b cycles=230 checked=16
+METRIC mode=1 n=16 op=pointwise cycles=19 checked=16
+METRIC mode=1 n=16 op=product_inverse cycles=230 checked=16
+PASS integration mode=1 n=16 coefficients=112

@@ -1,0 +1,1 @@
+$ iverilog -g2012 -Wall -s tb_ntt -Ptb_ntt.LOG_N=13 -Ptb_ntt.W=64 '-Ptb_ntt.Q=64'"'"'d1152921504606830593' '-Ptb_ntt.PRIMITIVE_ROOT=64'"'"'d5' -Ptb_ntt.USE_TFG=1 '-Ptb_ntt.VECTOR_DIR="reports/rns60/n8192_seed20261028/vectors"' -o reports/rns60/n8192_seed20261028/tfg.vvp rtl/mod_mul.sv rtl/butterfly.sv rtl/twiddle_gen.sv rtl/ntt_core.sv tb/tb_ntt.sv

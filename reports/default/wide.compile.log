@@ -1,0 +1,1 @@
+$ iverilog -g2012 -Wall -s tb_wide -o reports/default/wide.vvp rtl/mod_mul.sv rtl/butterfly.sv tb/tb_wide.sv

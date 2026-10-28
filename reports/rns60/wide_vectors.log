@@ -1,0 +1,2 @@
+$ /usr/bin/python3 tools/generate_wide_vectors.py
+Generated 512 64-bit arithmetic vectors in build/wide_vectors

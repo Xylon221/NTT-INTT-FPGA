@@ -1,0 +1,1 @@
+$ iverilog -g2012 -Wall -s tb_units -o reports/rns60/units.vvp rtl/mod_mul.sv rtl/butterfly.sv rtl/twiddle_gen.sv tb/tb_units.sv

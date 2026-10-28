@@ -1,0 +1,9 @@
+$ vvp reports/default/n8192_seed20261028/rom.vvp
+METRIC mode=0 n=8192 op=forward_cyclic cycles=266254 checked=8192
+METRIC mode=0 n=8192 op=inverse_cyclic cycles=299023 checked=8192
+METRIC mode=0 n=8192 op=inverse_negacyclic cycles=299023 checked=8192
+METRIC mode=0 n=8192 op=forward_negacyclic_a cycles=299023 checked=8192
+METRIC mode=0 n=8192 op=forward_negacyclic_b cycles=299023 checked=8192
+METRIC mode=0 n=8192 op=pointwise cycles=8195 checked=8192
+METRIC mode=0 n=8192 op=product_inverse cycles=299023 checked=8192
+PASS integration mode=0 n=8192 coefficients=57344

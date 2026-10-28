@@ -1,0 +1,1 @@
+$ iverilog -g2012 -Wall -s tb_ntt -Ptb_ntt.LOG_N=4 -Ptb_ntt.W=32 '-Ptb_ntt.Q=32'"'"'d2013265921' '-Ptb_ntt.PRIMITIVE_ROOT=32'"'"'d31' -Ptb_ntt.USE_TFG=0 '-Ptb_ntt.VECTOR_DIR="reports/default/n16_seed20261028/vectors"' -o reports/default/n16_seed20261028/rom.vvp rtl/mod_mul.sv rtl/butterfly.sv rtl/twiddle_gen.sv rtl/ntt_core.sv tb/tb_ntt.sv

@@ -1,0 +1,9 @@
+$ vvp reports/default/n256_seed20261028/rom.vvp
+METRIC mode=0 n=256 op=forward_cyclic cycles=5129 checked=256
+METRIC mode=0 n=256 op=inverse_cyclic cycles=6154 checked=256
+METRIC mode=0 n=256 op=inverse_negacyclic cycles=6154 checked=256
+METRIC mode=0 n=256 op=forward_negacyclic_a cycles=6154 checked=256
+METRIC mode=0 n=256 op=forward_negacyclic_b cycles=6154 checked=256
+METRIC mode=0 n=256 op=pointwise cycles=259 checked=256
+METRIC mode=0 n=256 op=product_inverse cycles=6154 checked=256
+PASS integration mode=0 n=256 coefficients=1792

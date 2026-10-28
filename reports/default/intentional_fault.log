@@ -1,0 +1,2 @@
+FATAL: tb/tb_ntt.sv:88: forward_cyclic mode=0 n=2 coefficient=1 expected=78000001 actual=78000000
+       Time: 372000 Scope: tb_ntt.transform

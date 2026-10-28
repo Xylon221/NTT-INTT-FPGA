@@ -1,0 +1,2 @@
+$ vvp reports/rns60/units.vvp
+PASS units: modular_products=7448 butterflies=3511 twiddle_advances=768

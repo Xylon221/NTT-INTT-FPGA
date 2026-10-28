@@ -1,0 +1,406 @@
+{
+  "status": "passed",
+  "generated_at": "2026-10-28T09:41:21.870416+00:00",
+  "parameters": {
+    "sizes": [
+      16,
+      8192
+    ],
+    "seeds": [
+      20261028
+    ],
+    "q": 1152921504606830593,
+    "primitive_root": 5,
+    "width": 64
+  },
+  "measurements": [
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_cyclic",
+      "cycles": 165,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "inverse_cyclic",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "inverse_negacyclic",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_a",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_b",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "pointwise",
+      "cycles": 19,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "product_inverse",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_cyclic",
+      "cycles": 165,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "inverse_cyclic",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "inverse_negacyclic",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_a",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_b",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "pointwise",
+      "cycles": 19,
+      "checked": 16
+    },
+    {
+      "mode": "tfg",
+      "n": 16,
+      "seed": 20261028,
+      "operation": "product_inverse",
+      "cycles": 230,
+      "checked": 16
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_cyclic",
+      "cycles": 266254,
+      "checked": 8192
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "inverse_cyclic",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "inverse_negacyclic",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_a",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_b",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "pointwise",
+      "cycles": 8195,
+      "checked": 8192
+    },
+    {
+      "mode": "rom",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "product_inverse",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_cyclic",
+      "cycles": 266254,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "inverse_cyclic",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "inverse_negacyclic",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_a",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_b",
+      "cycles": 299023,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "pointwise",
+      "cycles": 8195,
+      "checked": 8192
+    },
+    {
+      "mode": "tfg",
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "product_inverse",
+      "cycles": 299023,
+      "checked": 8192
+    }
+  ],
+  "tools": {
+    "python": "3.10.12",
+    "iverilog": "Icarus Verilog version 11.0 (stable) ()",
+    "vvp": "Icarus Verilog runtime version 11.0 (stable) ()"
+  },
+  "source_sha256": {
+    "fpga/constraints.xdc": "e4eafec16ac5784fc329c26ada4c009603ad7c4a75158c28c97241f9c1e923cf",
+    "fpga/synth.tcl": "84b9242bdf72f6b17fb40fae9cda8aa07ee6bddd3074a062aaa6bdb4b18a17e9",
+    "python/__init__.py": "d34977e2b87ad659c8a658335959936ad606f2daa5995db809a1c345a0f741da",
+    "python/ntt_ref.py": "ab9cb30c63c291f6c4c550becd531727421aa737d1ddf5d235e64192010b3600",
+    "rtl/butterfly.sv": "c3d4f446da06e577b79adc025b0a4f339a3b5563eeb9b7d451c871939e1c5866",
+    "rtl/mod_mul.sv": "506aef4e98e445503ccffa6514a0d735c109b1bd34139a2b79d5bf25a5e5f4b4",
+    "rtl/ntt_core.sv": "81f478b5947dfb38bf119f43a5ec77556f0031e6d71da41a04951b35b11e4e62",
+    "rtl/twiddle_gen.sv": "7e9f83a2588b5bc2c939db184e6f74b791d1a26ef960fe9dfe0219a83e6c9112",
+    "tb/tb_ntt.sv": "3d25165f1f22e5b7c747e331ce55e58d347ca693313884e6b77399ee7ea7a382",
+    "tb/tb_units.sv": "fed8dda99cf9a4d566cecfd05280ae9eb05c92c65aed6d30dde168a30a278814",
+    "tb/tb_wide.sv": "f61fe672b73bbc31338fc0737bdd304c980eaebc59a30819057c87a828da4916",
+    "tests/test_reference.py": "a5cdcabcd5cf884e27e72a4e6dac86e3609754fe734c077d92465df4dda46a66",
+    "tools/generate_vectors.py": "32a6a4fc83a78f0283754c03ed29e43e9e525af80c7fec86c9f071a7f8f7ad52",
+    "tools/generate_wide_vectors.py": "1d4613c468dd3a0213acce41b6db21b90efe450978e917da9a8af0b563c0150f",
+    "tools/run_regression.py": "4e64e1fbe2e9a4610c3d5efe56f3dab851df5b905fe35b9116080a3e95b0ce0b"
+  },
+  "python_tests": "test_64_bit_modulus (test_reference.ReferenceTests) ... ok\ntest_all_transform_modes_against_direct_definition (test_reference.ReferenceTests) ... ok\ntest_bit_reverse (test_reference.ReferenceTests) ... ok\ntest_full_size_dense_times_sparse (test_reference.ReferenceTests) ... ok\ntest_full_size_roundtrips (test_reference.ReferenceTests) ... ok\ntest_impulse_and_constant (test_reference.ReferenceTests) ... ok\ntest_invalid_inputs (test_reference.ReferenceTests) ... ok\ntest_negacyclic_products_against_schoolbook (test_reference.ReferenceTests) ... ok\ntest_primality_and_parameter_validation (test_reference.ReferenceTests) ... ok\ntest_sparse_wraparound_identity (test_reference.ReferenceTests) ... ok\ntest_vector_determinism_and_independent_product_checks (test_reference.ReferenceTests) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.247s\n\nOK\n",
+  "unit_tests": "PASS units: modular_products=7448 butterflies=3511 twiddle_advances=768\n",
+  "wide_tests": "PASS wide arithmetic: W=64 Q=18446744069414584321 products=512 butterflies=512\n",
+  "failure_detector": {
+    "status": "passed",
+    "corrupted_coefficient": 3,
+    "log": "reports/rns60/intentional_fault.log",
+    "short_vector_log": "reports/rns60/short_vector.log"
+  },
+  "comparisons": [
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_cyclic",
+      "rom_cycles": 165,
+      "tfg_cycles": 165,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_a",
+      "rom_cycles": 230,
+      "tfg_cycles": 230,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_b",
+      "rom_cycles": 230,
+      "tfg_cycles": 230,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "inverse_cyclic",
+      "rom_cycles": 230,
+      "tfg_cycles": 230,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "inverse_negacyclic",
+      "rom_cycles": 230,
+      "tfg_cycles": 230,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "pointwise",
+      "rom_cycles": 19,
+      "tfg_cycles": 19,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 20261028,
+      "operation": "product_inverse",
+      "rom_cycles": 230,
+      "tfg_cycles": 230,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_cyclic",
+      "rom_cycles": 266254,
+      "tfg_cycles": 266254,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_a",
+      "rom_cycles": 299023,
+      "tfg_cycles": 299023,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "forward_negacyclic_b",
+      "rom_cycles": 299023,
+      "tfg_cycles": 299023,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "inverse_cyclic",
+      "rom_cycles": 299023,
+      "tfg_cycles": 299023,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "inverse_negacyclic",
+      "rom_cycles": 299023,
+      "tfg_cycles": 299023,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "pointwise",
+      "rom_cycles": 8195,
+      "tfg_cycles": 8195,
+      "cycle_change_percent": 0.0
+    },
+    {
+      "n": 8192,
+      "seed": 20261028,
+      "operation": "product_inverse",
+      "rom_cycles": 299023,
+      "tfg_cycles": 299023,
+      "cycle_change_percent": 0.0
+    }
+  ],
+  "logical_twiddle_storage": [
+    {
+      "n": 16,
+      "rom_table_words": 16,
+      "tfg_stage_constant_words": 8,
+      "rom_table_bits": 1024,
+      "tfg_stage_constant_bits": 512,
+      "constant_data_reduction_percent": 50.0
+    },
+    {
+      "n": 8192,
+      "rom_table_words": 8192,
+      "tfg_stage_constant_words": 26,
+      "rom_table_bits": 524288,
+      "tfg_stage_constant_bits": 1664,
+      "constant_data_reduction_percent": 99.6826171875
+    }
+  ],
+  "checked_integration_coefficients": 114912
+}

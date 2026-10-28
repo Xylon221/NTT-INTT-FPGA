@@ -1,0 +1,3 @@
+WARNING: tb/tb_ntt.sv:152: $readmemh(reports/default/n2_seed20261028/vectors/forward.hex): Not enough words in the file for the requested range [0:1].
+FATAL: tb/tb_ntt.sv:170: Missing, short or unknown vector coefficient=0
+       Time: 0 Scope: tb_ntt

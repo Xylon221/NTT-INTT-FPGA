@@ -1,0 +1,2 @@
+$ vvp reports/default/wide.vvp +VECTORS=build/wide_vectors
+PASS wide arithmetic: W=64 Q=18446744069414584321 products=512 butterflies=512
